@@ -6,3 +6,7 @@ seaborn
 plotly
 scikit-learn
 joblib
+calendar
+datetime
+plotly
+ipython
