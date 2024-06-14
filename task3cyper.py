@@ -11,7 +11,7 @@ from math import sqrt
 st.title("Time Series Forecasting App")
 
 # File upload
-uploaded_file = st.file_uploader(r"D:\programming\programming\python\age&genderdetection\Pedestrian_Detection_OpenCV-master\Pedestrian_Detection_OpenCV-master\Alcohol_Sales.csv", type="csv")
+uploaded_file = st.file_uploader("Alcohol_Sales.csv", type="csv")
 
 if uploaded_file is not None:
     # Read the file into a dataframe
