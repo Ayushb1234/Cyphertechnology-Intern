@@ -15,7 +15,7 @@ from IPython.display import HTML
 st.title("👨🏻‍🏭Unemployment Analysis.")
 
 #reading the dataset and storing it as a dataframe
-df = pd.read_csv(r'D:\programming\programming\python\age&genderdetection\Pedestrian_Detection_OpenCV-master\Pedestrian_Detection_OpenCV-master\task2unemploy.csv')
+df = pd.read_csv('task2unemploy.csv')
 
 #changing column names so that they don't have white-spaces, numbers, or any special-characters
 df.columns =['States','Date','Frequency','Estimated Unemployment Rate','Estimated Employed','Estimated Labour Participation Rate','Region','longitude','latitude']
