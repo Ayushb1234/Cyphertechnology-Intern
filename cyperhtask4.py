@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_curve, auc
 
 # Load data
-data = pd.read_csv(r'D:\programming\programming\python\age&genderdetection\Pedestrian_Detection_OpenCV-master\Pedestrian_Detection_OpenCV-master\task3cipyer\spam.csv')
+data = pd.read_csv('spam.csv')
 data.columns = ['label', 'text']
 
 # Preprocessing
